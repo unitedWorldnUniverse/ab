@@ -1,10 +1,5 @@
-import { Link } from "react-router-dom";
-import { gl as Google } from "./../../assets/svg/gl.jsx";
-import { ig as Instagram } from "./../../assets/svg/ig";
-import { fb as Facebook } from "./../../assets/svg/fb";
 import { cl as Close } from "./../../assets/svg/cl";
 import "./md.css";
-import { useEffect } from "react";
 
 // eslint-disable-next-line react/prop-types
 const Modal = ({ open, setOpen, text, mode }) => {
